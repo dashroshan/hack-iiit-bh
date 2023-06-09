@@ -63,8 +63,7 @@
 
 .navLink:hover,
 .navLink.activePath {
-    /* color: #08cdff; */
-    color: #f20c42; 
+    color: #08cdff;
 }
 
 .navLink:hover::before,
@@ -92,7 +91,7 @@
 
 .svgicon {
     fill: #0f1d29;
-    stroke: #f20c42;
+    stroke: #08CDFF;
     position: absolute;
     left: 0;
     top: 0;

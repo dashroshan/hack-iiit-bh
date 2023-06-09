@@ -4,7 +4,6 @@ import { useEffect } from "react";
 
 import NavBar from "./components/navbar";
 import HomePage from "./routes/homePage";
-import Format from "./routes/formatPage";
 
 import RouteTransition from "./utils/routeTransition";
 import hideLoader from "./utils/hideLoader";
@@ -25,7 +24,6 @@ export default function App() {
             <Routes>
                 <Route element={<RouteTransition />}>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/format" element={<Format/>} />
                     <Route path="*" element={<Navigate to="/" />} />
                 </Route>
             </Routes>
